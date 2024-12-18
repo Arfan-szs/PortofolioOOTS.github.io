@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl">KITASIK</a>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+            <input type="text" placeholder="Carilah" class="input input-bordered w-24 md:w-auto" />
+          </div>
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+                <img
+                  alt="Tailwind CSS Navbar component"
+                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+              </div>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li>
+                <a class="justify-between">
+                  Profile
+                  <span class="badge">New</span>
+                </a>
+              </li>
+              <li><a>Settings</a></li>
+              <li><a>Logout</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- hero-->
+    <section class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src="https://i.pinimg.com/736x/50/af/1d/50af1da23f020512c32f80c42ae5a9dd.jpg"
+            class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">SMKN 8 NI BOS!</h1>
+            <p class="py-6">
+                Hulk, adalah tokoh pahlawan super fiksi yang ada pada Marvel Comics.
+            </p>
+            <button class="btn btn-primary">Ayo kang</button>
+          </div>
+        </div>
+    </section>
+   <!-- CODI-->
+    <section class="flex justify-center">
+        <div class="">
+            <h1>tentangku</h1>
+            <p>kepada siapa ini </p>
+        </div>
+        <div class="avatar">
+            <div class="w-96 rounded-full">
+                <img src="https://cdn.antaranews.com/cache/1200x800/2019/11/29/E0F14561-F5C8-4A6C-81E5-0F130CA0B934.jpeg">
+            </div>
+        </div>
+    </section>
+    
+    <!-- FOTER-->
+     <footer class="footer footer-center bg-base-300 text-base-content p-4">
+        <aside>
+          <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+        </aside>
+      </footer>
+</body>
+</html>
